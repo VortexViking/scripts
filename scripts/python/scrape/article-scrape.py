@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL of the website you want to scrape
-url = "https://makemeaprogrammer.com/best-way-to-learn-c/"
+url = input("What url do you want to scrape?").lower()
 
 # Send a GET request to fetch the webpage
 response = requests.get(url)
