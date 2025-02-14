@@ -1,1 +1,0 @@
-mpv /dev/video0
